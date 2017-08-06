@@ -51,8 +51,34 @@ w przypadku scale -> uzyc overflow: hidden;*/
     transform: scale(1.5, 1.5);
 }
 
+/*ANIMACJE*/
 
+#animowany {
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    animation-name: changeWidth;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
 
+@keyframes changeWidth{
+/*
+    from {
+        width:1000px;
+    }
+    to{
+       width: 400px; 
+    }
+*/
+    0%, 100% {
+      width: 400px;
+    }
+    50% {
+        width: 1000px;
+    }
+}
 
 
 
