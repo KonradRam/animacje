@@ -14,5 +14,53 @@
     background-color: red;
     width: 400px;
     height: 400px;
-    transform: translateX(100px);
+    transition: all 0.5s;
+    display: inline-block;
 }
+
+#odsuwany:hover {
+    transform: translate(100px, 100px);
+}
+
+#odsuwany2 {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+
+/* translate: zeby pierwszy wszedł pod drugi: position:relative; z-index:1;
+w przypadku scale -> uzyc overflow: hidden;*/
+
+#skalowany_outer {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#skalowany {
+    background: url('http://dinoanimals.pl/wp-content/uploads/2014/10/Kot_syjamski_10.jpg') no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s;
+}
+
+#skalowany:hover {
+    transform: scale(1.5, 1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
