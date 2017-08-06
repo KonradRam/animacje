@@ -1,8 +1,18 @@
 #rotowany {
-    background: 
-        url('http://dinoanimals.pl/wp-content/uploads/2014/10/Kot_syjamski_10.jpg') no-repeat;
+    background: url('http://dinoanimals.pl/wp-content/uploads/2014/10/Kot_syjamski_10.jpg') no-repeat;
     background-size: cover;
     width: 400px;
     height: 400px;
-    transform: rotate(20deg);
+    transition: all 0.5s;
+}
+
+#rotowany:hover {
+    transform: rotate(-360deg);
+}
+
+#odsuwany {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    transform: translateX(100px);
 }
